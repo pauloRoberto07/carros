@@ -20,8 +20,8 @@
     $mail->Charset = 'UTF-8';
     $mail->SMTPAuth = true;
 
-    $mail->Username = 'mecmec1421@gmail.com';
-    $mail->Password = 'brabaodepegar777';
+    $mail->Username = 'email';
+    $mail->Password = 'senha';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
