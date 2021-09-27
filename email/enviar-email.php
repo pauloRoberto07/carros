@@ -20,12 +20,12 @@
     $mail->Charset = 'UTF-8';
     $mail->SMTPAuth = true;
 
-    $mail->Username = 'email';
-    $mail->Password = 'senha';
+    $mail->Username = 'MEU EMAIL';
+    $mail->Password = 'SENHA';
     $mail->SMTPSecure = 'ssl';
     $mail->Port = 465;
 
-    $mail->setFrom('mecmec1421@gmail.com', 'Carros');
+    $mail->setFrom('MEU EMAIL', 'Carros');
     $mail->SingleTo = true;
 
     $mail->addAddress("$email");
